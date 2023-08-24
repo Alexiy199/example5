@@ -324,6 +324,12 @@ button:active {
   margin: 0 auto;
 }
 
+.header .wrap-header .nav-header-mob .right > li {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 1.5em auto;
+}
+
 .header .wrap-header .nav-header-mob .close-menu {
   visibility: visible;
   opacity: 1;
@@ -642,7 +648,7 @@ button:active {
 }
 
 .main .profile {
-  height: 100vh;
+  height: 100%;
   display: flex;
 }
 
@@ -952,7 +958,7 @@ button:active {
   }
 
   .main .wrap-main .swiper .box-pagination {
-    width: 45%;
+    width: 75%;
     transform: none;
   }
 
