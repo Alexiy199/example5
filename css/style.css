@@ -527,30 +527,23 @@ button:active {
   padding: 1em;
 }
 
+.main .wrap-main .block-movie .box-info-cover span {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+.main .wrap-main .block-movie .box-info-cover a {
+  font-size: 0.5em;
+  font-weight: 200;
+  color: white;
+  margin-left: 2em;
+}
+
 .main .wrap-main .block-movie .box-cover {
   position: relative;
   display: flex;
   width: 100%;
   margin: 2em 0em;
-}
-
-.main .wrap-main .block-movie .box-cover .box-info-cover {
-  position: absolute;
-  top: 0;
-  left: 0;
-  transform: translate(3%, -105%);
-}
-
-.main .wrap-main .block-movie .box-cover .box-info-cover span {
-  font-size: 1.5em;
-  font-weight: 400;
-}
-
-.main .wrap-main .block-movie .box-cover .box-info-cover a {
-  font-size: 0.5em;
-  font-weight: 200;
-  color: white;
-  margin-left: 2em;
 }
 
 .main .wrap-main .block-movie .box-cover .movie-cover {
@@ -885,11 +878,11 @@ button:active {
   .main .wrap-main .block-movie .box-cover {
     overflow-x: auto;
     overflow-y: hidden;
-    margin: 1em 0em;
   }
 
   .main .wrap-main .block-movie .box-cover .movie-cover {
     height: 9.63em;
+    margin: 0 0.5em;
   }
 }
 
